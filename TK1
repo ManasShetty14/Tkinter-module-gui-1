@@ -1,0 +1,11 @@
+import tkinter as tk
+from tkinter import messagebox
+def hello():
+    msg=messagebox.showinfo("Big box","Small box")
+
+root=tk.Tk()
+root.title("First project")
+root.geometry("300x300")
+z=tk.Button(root,text="Press it",command=hello)
+z.place(x=100,y=100)
+root.mainloop()
